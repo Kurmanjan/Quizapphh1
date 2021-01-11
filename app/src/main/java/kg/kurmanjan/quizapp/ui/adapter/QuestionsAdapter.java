@@ -1,7 +1,6 @@
-package kg.nurzhamal.quizapp.ui.adapter;
+package kg.kurmanjan.quizapp.ui.adapter;
 
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -10,12 +9,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import kg.nurzhamal.quizapp.R;
-import kg.nurzhamal.quizapp.data.Item_for_type_questions;
-import kg.nurzhamal.quizapp.data.Questions_boolean;
-import kg.nurzhamal.quizapp.data.Questions_multi;
-import kg.nurzhamal.quizapp.databinding.QuestionsBooleanItemsBinding;
-import kg.nurzhamal.quizapp.databinding.QuestionsMultiItemBinding;
+import kg.kurmanjan.quizapp.R;
+import kg.kurmanjan.quizapp.data.Item_for_type_questions;
+import kg.kurmanjan.quizapp.data.Questions_boolean;
+import kg.kurmanjan.quizapp.data.Questions_multi;
+import kg.kurmanjan.quizapp.databinding.QuestionsBooleanItemsBinding;
+import kg.kurmanjan.quizapp.databinding.QuestionsMultiItemBinding;
 
 public class QuestionsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private List<Item_for_type_questions> items;

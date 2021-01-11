@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.ui.settings;
+package kg.kurmanjan.quizapp.ui.settings;
 
 import androidx.lifecycle.ViewModel;
 

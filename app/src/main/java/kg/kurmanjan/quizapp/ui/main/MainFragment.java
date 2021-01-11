@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.ui.main;
+package kg.kurmanjan.quizapp.ui.main;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -13,9 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import kg.nurzhamal.quizapp.R;
+import kg.kurmanjan.quizapp.R;
 
 public class MainFragment extends Fragment {
     SeekBar seekBar;

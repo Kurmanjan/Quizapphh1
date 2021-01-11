@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.data;
+package kg.kurmanjan.quizapp.data;
 
 public class Item_for_type_questions {
     private int type;

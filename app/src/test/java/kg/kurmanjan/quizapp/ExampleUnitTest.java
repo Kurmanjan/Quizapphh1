@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp;
+package kg.kurmanjan.quizapp;
 
 import org.junit.Test;
 

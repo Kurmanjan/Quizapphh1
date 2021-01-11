@@ -6,7 +6,7 @@
 
         <variable
             name="questions"
-            type="kg.nurzhamal.quizapp.data.Questions_multi" />
+            type="kg.kurmanjan.quizapp.data.Questions_multi" />
 
     </data>
 

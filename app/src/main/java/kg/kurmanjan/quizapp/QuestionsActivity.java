@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp;
+package kg.kurmanjan.quizapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -11,13 +11,11 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
-import kg.nurzhamal.quizapp.data.Item_for_type_questions;
-import kg.nurzhamal.quizapp.data.Questions_boolean;
-import kg.nurzhamal.quizapp.data.Questions_multi;
-import kg.nurzhamal.quizapp.databinding.ActivityQuestionsBinding;
-import kg.nurzhamal.quizapp.databinding.QuestionsBooleanItemsBinding;
-import kg.nurzhamal.quizapp.databinding.QuestionsMultiItemBinding;
-import kg.nurzhamal.quizapp.ui.adapter.QuestionsAdapter;
+import kg.kurmanjan.quizapp.data.Item_for_type_questions;
+import kg.kurmanjan.quizapp.data.Questions_boolean;
+import kg.kurmanjan.quizapp.data.Questions_multi;
+import kg.kurmanjan.quizapp.databinding.ActivityQuestionsBinding;
+import kg.kurmanjan.quizapp.ui.adapter.QuestionsAdapter;
 
 public class QuestionsActivity extends AppCompatActivity {
     List<Item_for_type_questions> items = new ArrayList<>();

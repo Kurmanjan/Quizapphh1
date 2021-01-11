@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.ui.history;
+package kg.kurmanjan.quizapp.ui.history;
 
 import androidx.lifecycle.ViewModel;
 

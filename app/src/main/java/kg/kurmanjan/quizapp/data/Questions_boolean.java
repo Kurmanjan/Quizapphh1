@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.data;
+package kg.kurmanjan.quizapp.data;
 
 public class Questions_boolean {
     private String questions_b, answers1_b, answers2_b;

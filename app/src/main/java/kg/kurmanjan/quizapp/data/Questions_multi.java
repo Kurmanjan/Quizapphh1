@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.data;
+package kg.kurmanjan.quizapp.data;
 
 public class Questions_multi {
     private String questions, answers1, answers2, answers3, answers4;

@@ -5,7 +5,7 @@
 
         <variable
             name="questionsForBoolean"
-            type="kg.nurzhamal.quizapp.data.Questions_boolean" />
+            type="kg.kurmanjan.quizapp.data.Questions_boolean" />
 
     </data>
 

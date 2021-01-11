@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp;
+package kg.kurmanjan.quizapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import kg.nurzhamal.quizapp.ui.adapter.MainViewPagerAdapter;
+import kg.kurmanjan.quizapp.ui.adapter.MainViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;

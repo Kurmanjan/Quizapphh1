@@ -1,4 +1,4 @@
-package kg.nurzhamal.quizapp.ui.settings;
+package kg.kurmanjan.quizapp.ui.history;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -12,26 +12,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import kg.nurzhamal.quizapp.R;
+import kg.kurmanjan.quizapp.R;
 
-public class SettingsFragment extends Fragment {
+public class HistoryFragment extends Fragment {
 
-    private SettingsViewModel mViewModel;
+    private HistoryViewModel mViewModel;
 
-    public static SettingsFragment newInstance() {
-        return new SettingsFragment();
+    public static HistoryFragment newInstance() {
+        return new HistoryFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.settings_fragment, container, false);
+        return inflater.inflate(R.layout.history_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(SettingsViewModel.class);
+        mViewModel = new ViewModelProvider(this).get(HistoryViewModel.class);
         // TODO: Use the ViewModel
     }
 

@@ -1,13 +1,13 @@
-package kg.nurzhamal.quizapp.ui.adapter;
+package kg.kurmanjan.quizapp.ui.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import kg.nurzhamal.quizapp.ui.history.HistoryFragment;
-import kg.nurzhamal.quizapp.ui.main.MainFragment;
-import kg.nurzhamal.quizapp.ui.settings.SettingsFragment;
+import kg.kurmanjan.quizapp.ui.history.HistoryFragment;
+import kg.kurmanjan.quizapp.ui.main.MainFragment;
+import kg.kurmanjan.quizapp.ui.settings.SettingsFragment;
 
 public class MainViewPagerAdapter extends FragmentPagerAdapter {
     public MainViewPagerAdapter(@NonNull FragmentManager fm) {
